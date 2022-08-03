@@ -7,7 +7,7 @@ class Idea (overview: IdeaOverview, val title: String, val description: String) 
     }
 }
 
-class IdeasResult(val ideas: List<Idea>, val ideaOverviws: List<IdeaOverview>) {
+class IdeasResult(val ideas: List<Idea>, val ideaOverviews: List<IdeaOverview>) {
     override fun toString(): String {
         return Gson().toJson(this)
     }

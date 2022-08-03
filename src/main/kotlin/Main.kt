@@ -6,7 +6,7 @@ fun main(args: Array<String>) {
         results.add(result)
 
         println("Fetched idea for page ${i}:")
-        IdeaOverviews.logIdeaOverviews(result.ideaOverviws)
+        IdeaOverviews.logIdeaOverviews(result.ideaOverviews)
         Ideas.logIdeas(result.ideas)
     }
 
